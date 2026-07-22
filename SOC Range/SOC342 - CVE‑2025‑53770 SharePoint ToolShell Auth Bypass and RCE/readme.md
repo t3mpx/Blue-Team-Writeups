@@ -83,7 +83,7 @@ powershell.exe -Command "[System.Web.Configuration.MachineKeySection]::GetApplic
 ```
 ![](images/SOC342%20-%20CVE‑2025‑53770%20SharePoint%20ToolShell%20Auth%20Bypass%20and%20RCE-12.png)
 
-AT 2025-07-22 13:08:04, the server connected to the malicious IP 107.191.58.76,
+AT 2025-07-22 13:08:04, the server connected to the malicious IP 107.191.58.76:
 
 ![](images/SOC342%20-%20CVE‑2025‑53770%20SharePoint%20ToolShell%20Auth%20Bypass%20and%20RCE-13.png)
 
