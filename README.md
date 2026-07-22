@@ -1,2 +1,2 @@
-# SOC-Range
-Write-ups of different scenarios from the SOC Range in Let'sDefend and HackTheBox.
+# Blue-Team-Writeups
+Write-ups from different scenarios related to blue team cybersecurity
