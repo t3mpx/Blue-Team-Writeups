@@ -117,6 +117,6 @@ Gathered evidence concludes the attacker successfully obtained access via RDP th
 
 ## Useful links
 
-[Administrative tools and logon types reference - Windows Server \| Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types)
-[How to Convert SID to User/Group Name and User to SID \| Windows OS Hub](https://woshub.com/convert-sid-to-username-and-vice-versa/)
-[Expand-Archive (Microsoft.PowerShell.Archive) - PowerShell \| Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/expand-archive?view=powershell-7.6)
+- [Administrative tools and logon types reference - Windows Server \| Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types)
+- [How to Convert SID to User/Group Name and User to SID \| Windows OS Hub](https://woshub.com/convert-sid-to-username-and-vice-versa/)
+- [Expand-Archive (Microsoft.PowerShell.Archive) - PowerShell \| Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/expand-archive?view=powershell-7.6)
