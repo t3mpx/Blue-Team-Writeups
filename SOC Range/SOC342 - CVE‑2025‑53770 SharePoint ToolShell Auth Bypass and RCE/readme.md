@@ -110,8 +110,8 @@ Based on the evidence the investigation supports a successfull CVE-2025-53770 ex
 Evidence includes obfuscated Base64 PowerShell command execution by the IIS worker w3wp.exe, the extraction of SharePoint Machines Keys, creation of an ASPX webshell, and outbound communication with a suspected C2. Further investigation must be performed by the SOC N2 team to determine the full scope of the compromise.
 
 ## Useful links
-[Detecting SharePoint attacks via worker process activity](https://redcanary.com/blog/threat-detection/detecting-sharepoint-attacks-via-worker-process-activity/)
-[MachineKeySection Class (System.Web.Configuration) \| Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.web.configuration.machinekeysection?view=netframework-4.8.1)
-[wcf - What is w3wp.exe? - Stack Overflow](https://stackoverflow.com/questions/7822898/what-is-w3wp-exe)
-[Stealing Machine Keys for fun and profit (or riding the SharePoint wave)](https://isc.sans.edu/diary/32174)
-[VirusTotal - File - 92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514](https://www.virustotal.com/gui/file/92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514/community)
+- [Detecting SharePoint attacks via worker process activity](https://redcanary.com/blog/threat-detection/detecting-sharepoint-attacks-via-worker-process-activity/)
+- [MachineKeySection Class (System.Web.Configuration) \| Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.web.configuration.machinekeysection?view=netframework-4.8.1)
+- [wcf - What is w3wp.exe? - Stack Overflow](https://stackoverflow.com/questions/7822898/what-is-w3wp-exe)
+- [Stealing Machine Keys for fun and profit (or riding the SharePoint wave)](https://isc.sans.edu/diary/32174)
+- [VirusTotal - File - 92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514](https://www.virustotal.com/gui/file/92bb4ddb98eeaf11fc15bb32e71d0a63256a0ed826a03ba293ce3a8bf057a514/community)
