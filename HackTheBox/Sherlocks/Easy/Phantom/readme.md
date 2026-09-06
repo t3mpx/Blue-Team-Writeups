@@ -14,8 +14,6 @@ urls:
 
 A Linux server in your organization has been exhibiting suspicious behavior. Network monitoring detected unusual outbound connections to an unknown IP address, and system administrators noticed that several standard diagnostic commands were returning incomplete information. A memory dump was captured from the compromised server before isolation. Your task is to analyze this memory dump to uncover evidence of a sophisticated rootkit infection, map its capabilities, and document all indicators of compromise.
 
-## Lessons Learned:
-
 ## QUESTIONS
 
 1. What is the name of the hidden kernel module?
