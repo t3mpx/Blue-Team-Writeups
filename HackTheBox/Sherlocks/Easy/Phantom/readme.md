@@ -23,7 +23,7 @@ Using `volatility3` with the plugin `malware.hidden_modules`, the hidden kernel 
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" malware.hidden_modules.Hidden_modules
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme.png)
+![](images/readme.png)
 
 
 `Answer:` singularity
@@ -41,7 +41,7 @@ Using the plugin `linux.kmsg` to read the kernel log and filtering for the hidde
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.kmsg | findstr /i "singularity"
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-1.png)
+![](images/readme-1.png)
 
 `Answer:` 2490.473832
 
@@ -58,7 +58,7 @@ With the plugin `linux.tracing.tracepoints.CheckTracepoints`, the hooked tracepo
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.tracing.tracepoints.CheckTracepoints
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-2.png)
+![](images/readme-2.png)
 
 `Answer:` sched_process_fork
 
@@ -70,7 +70,7 @@ Listing the connections with the plugin `linux.sockstat` reveals the host machin
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.sockstat
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-3.png)
+![](images/readme-3.png)
 
 `Answer:` 192.168.200.164
 
@@ -94,14 +94,14 @@ The plugin `linux.tracing.ftrace.CheckFtrace` shows the total ammount of hooks i
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.tracing.ftrace.CheckFtrace
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-4.png)
+![](images/readme-4.png)
 Not all are shown in the screenshot.
 
 ```powershell
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.tracing.ftrace.CheckFtrace | findstr /i singularity | Measure-Object -Line
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-8.png)
+![](images/readme-8.png)
 
 `Answer:` 82
 
@@ -109,7 +109,7 @@ python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.tracing.ftrace.CheckFtrace
 
 Looking at the output from the installed hooks shows that the function `tcp4_seq_show`, responsible for showing active TPC connections is hooked:
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-5.png)
+![](images/readme-5.png)
 
 `Answer:` tcp4_seq_show
 
@@ -121,7 +121,7 @@ Counting the number of instances of `getdents` gives the answer:
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.tracing.ftrace.CheckFtrace | findstr /i getdents | Measure-Object -Line
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-9.png)
+![](images/readme-9.png)
 
 `Answer:` 5 
 
@@ -129,7 +129,7 @@ python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.tracing.ftrace.CheckFtrace
 
 Looking againt at the output from the installed hooks one stands out, `icmp_rcv` function in charge of receiving and processing ICMP packets:
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-6.png)
+![](images/readme-6.png)
 
 `Answer:` icmp_rcv
 
@@ -147,12 +147,12 @@ Using the plugin `linux.envars` to retrieve all the environment variables and th
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.envars
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-7.png)
+![](images/readme-7.png)
 
 ```powershell
 python .\vol.py -f "C:\ad\phantom\dump_srv.mem" linux.bash
 ```
 
-![](00%20-%20content/50%20-%20writeups/hack%20the%20box/sherlocks/easy/Phantom/images/readme-10.png)
+![](images/readme-10.png)
 
 `Answer:` access
