@@ -62,7 +62,7 @@ The suricata log provides information about the CVE:
 
 **Answer:** `i18ntranslation`
 
-Following the `POST` requests shows a different URL path to an API in accordance to the exploit of CVE-2022-25237): 
+Following the `POST` requests shows a different URL path to an API in accordance to the exploit of CVE-2022-25237: 
 
 ![](images/readme-2.png)
 
