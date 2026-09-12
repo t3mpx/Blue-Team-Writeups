@@ -33,8 +33,6 @@ In the same table the IP from which the contractor created their account is visi
 
 **Answer:** `9`
 
-phpbb_posts
-
 From the `phpbb_posts` table, the contractor with `poster_id` 52 made the malicious phishing HTML post with `post_id` 9:
 
 ![](images/Untitled-5.png)
