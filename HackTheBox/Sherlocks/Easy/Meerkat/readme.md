@@ -29,7 +29,7 @@ Looking at the provided `Suricata` log shows multiple alerts indicating exploita
       "rev": 1,
 ```
 
-Alternatively, filtering for `HTTP` in Wireshark also shows multiple requests to a `/bonita` endpoint, indicating the application running is `Bonitasoft`:
+Alternatively, filtering for `HTTP` in Wireshark also shows multiple requests to a `/bonita` path, indicating the application running is `Bonitasoft`:
 
 ![](images/readme.png)
 
