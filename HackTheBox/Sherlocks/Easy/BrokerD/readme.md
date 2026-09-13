@@ -182,6 +182,6 @@ The `libhax.c` file present in the activemq user directory grants root permissio
 
 **Answer:** `nginx`
 
-The script ran the script `cleanup.sh` with the following content, effectively terminating `nginx` 3 times:
+The attacker ran the script `cleanup.sh` with the following content, effectively terminating `nginx` 3 times:
 
 ![](images/readme-20.png)
