@@ -119,6 +119,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCgruRMq3DMroGXrcPeeuEqQq3iS/sAL3gryt+nUqbB
 
 **Answer:** `T1098.004`
 
-The MITRE ID of this specific persistante method is `T1098.004`:
+The MITRE ID of this specific persistence method is `T1098.004`:
 
 ![](images/readme-5.png)
