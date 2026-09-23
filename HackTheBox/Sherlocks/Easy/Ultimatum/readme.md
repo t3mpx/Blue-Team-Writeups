@@ -47,7 +47,7 @@ A quick Google search shows that the combination of Wordpress version and plugin
 
 ![](images/readme-3.png)
 
-The CVE abuses and unsanitized input in `wp_capabilites` during registration, sending a crafted `POST` request to the `/register` path:
+The CVE abuses an unsanitized input in `wp_capabilites` during registration, sending a crafted `POST` request to the `/register` path:
 
 ![](images/readme-4.png)
 
